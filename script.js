@@ -37,7 +37,7 @@ function startNewGame() {
 
 function correctColor (selectColor) {
     if (selectColor === targetColor) {
-        gameStatus.textContent = "Correct!"
+        gameStatus.textContent = "Nice One!"
         score++
         scoreField.textContent = score
     } else{
