@@ -1,0 +1,64 @@
+body {
+    font-family: 'Cambria';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffc6ca;
+}
+
+.container {
+    text-align: center;
+    background: #ffeef4;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 3px 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.title{
+    font-size: 1.2rem;
+}
+
+.colorBox {
+    width: 80px;
+    height: 80px;
+    margin: 3rem auto;
+    border-radius: .5rem;
+    border: none;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .7rem;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.game-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #cc6600;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.game-button:hover { 
+    background-color: #ffc6ca;
+} 
